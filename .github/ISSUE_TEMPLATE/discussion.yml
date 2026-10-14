@@ -1,0 +1,10 @@
+name: Discussion
+description: A question or an idea you want on record.
+labels: [discussion]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: "What would you like to discuss?"
+    validations:
+      required: true

@@ -1,0 +1,23 @@
+name: Proposal
+description: A new idea or functionality that needs discussion before any text is written.
+title: "Proposal: "
+labels: [proposal]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Problem"
+      description: "What can a relying party, partner or registry not do today?"
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "Proposal"
+    validations:
+      required: true
+  - type: textarea
+    id: prior-art
+    attributes:
+      label: "Prior art"
+      description: "Public sources that already address this, with links."

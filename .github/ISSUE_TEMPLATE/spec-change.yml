@@ -1,0 +1,19 @@
+name: Spec change
+description: A concrete change to the specification text, a schema or an invariant.
+title: "Spec Change: "
+labels: [spec-change]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options: [editorial, fix, normative]
+    validations: {required: true}
+  - type: textarea
+    id: change
+    attributes: {label: Change, description: Section numbers and the proposed wording.}
+    validations: {required: true}
+  - type: textarea
+    id: rationale
+    attributes: {label: Rationale}
+    validations: {required: true}
