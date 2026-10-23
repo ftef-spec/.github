@@ -1,4 +1,9 @@
-<p align="center"><img src="ftef-mark.png" width="96" alt="FTEF mark: two domains joined by rungs of evidence"></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="ftef-mark-dark.svg">
+    <img src="ftef-mark.svg" width="96" alt="FTEF mark: two domains joined by rungs of evidence">
+  </picture>
+</p>
 
 # FTEF: Federated Trust Evidence Framework
 
