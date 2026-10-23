@@ -10,4 +10,4 @@ SPDX-License-Identifier = "Apache-2.0"
 path = ["CODE_OF_CONDUCT.md"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Community Specification contributors (https://github.com/CommunitySpecification/1.0)"
-SPDX-License-Identifier = "LicenseRef-CSL-1.0"
+SPDX-License-Identifier = "Community-Spec-1.0"
